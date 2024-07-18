@@ -1,0 +1,123 @@
+.hero {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 50%;
+}
+.hero__description-title {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+}
+.hero__description-title.curly {
+  color: #fff;
+  font-family: var(--miama);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+}
+.hero__description-subtitle {
+  color: var(--text-secondary);
+  font-family: var(--inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.hero__description-buttons {
+  display: flex;
+  gap: 14px;
+}
+.hero__description-button {
+  width: fit-content;
+  padding: 16px 40px;
+  background: transparent;
+  border-radius: 42px;
+  border: 1px solid #fff;
+  font-family: var(--inter);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero__description-button.active {
+  background: var(--accent);
+  border: none;
+}
+.hero__image {
+  position: relative;
+  width: 50%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.hero__image-text1 {
+  width: fit-content;
+  padding: 16px 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.hero__image-text1-title {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.hero__image-text1-subtitle {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: var(--inter);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero__image-text2 {
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: fit-content;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+}
+.hero__image-text2circle {
+  background-color: var(--accent);
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+.hero__image-text2-title {
+  color: #fafaf9;
+  font-family: var(--inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.hero__image-text2-subtitle {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: var(--inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
