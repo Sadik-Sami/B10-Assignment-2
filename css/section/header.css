@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%), linear-gradient(0deg, var(--black-primary) 0%, rgba(119, 119, 119, 0) 100%);
   background-color: #222;
   background-blend-mode: overlay;
 }
@@ -12,7 +12,7 @@ header {
   padding: 48px 0 32px 0;
 }
 .header__logo h4 {
-  color: var(--accent);
+  color: var(--accent-color);
   font-family: var(--inter);
   font-size: 36px;
   font-style: italic;
@@ -49,5 +49,5 @@ header {
 .header__menu-home.active {
   padding: 8px 20px;
   border-radius: 46px;
-  background: var(--accent);
+  background: var(--accent-color);
 }

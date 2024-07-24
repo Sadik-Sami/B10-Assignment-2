@@ -47,17 +47,17 @@
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
+  color: #fff;
 }
 .hero__description-button.active {
-  background: var(--accent);
+  background: var(--accent-color);
   border: none;
 }
 .hero__image {
   position: relative;
   width: 50%;
-  flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .hero__image-text1 {
   width: fit-content;
@@ -68,7 +68,7 @@
   backdrop-filter: blur(10px);
   position: absolute;
   top: 20%;
-  right: 5%;
+  right: -10%;
 }
 .hero__image-text1-title {
   color: #fff;
@@ -98,10 +98,10 @@
   width: fit-content;
   position: absolute;
   bottom: 10%;
-  left: 0;
+  left: 10%;
 }
 .hero__image-text2circle {
-  background-color: var(--accent);
+  background-color: var(--accent-color);
   width: 48px;
   height: 48px;
   border-radius: 100%;

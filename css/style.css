@@ -3,6 +3,7 @@
 
 @import url('section/header.css');
 @import url('section/hero.css');
+@import url('section/habits.css');
 
 :root {
   --miama : 'Miama', sans-serif;
@@ -13,7 +14,7 @@
 
   --black-primary : #000;
   --black-secondary : #222;
-  --accent: #E6533C;
+  --accent-color: #E6533C;
 
   --gradient-hero : background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
   --gradient-1 : background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
@@ -32,8 +33,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* START: header media querie */
+/* main {
+  max-width: 1060px;
+  margin: auto;
+} */
 @media screen and (max-width: 576px) {
+  /* START: header media querie */
   .header__nav {
     padding: 48px 10px 32px 10px;
   }
@@ -43,4 +48,6 @@ a {
   .header__menu-mobile {
     display: flex;
   }
+  /* Start hero media queries */
+  
 }
