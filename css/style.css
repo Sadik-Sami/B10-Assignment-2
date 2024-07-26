@@ -113,6 +113,17 @@ a {
   }
   /* start habits media queries */
   .habits {
-    display: none;
+    padding: 0;
+  }
+  .habit-cards  {
+    flex-direction: column;
+    padding: 0 80px;
+  }
+  .habit-card img {
+    height: 150px;
+    width: 150px;
+  }
+  .habits__description h1 {
+    font-size: 36px;
   }
 }
