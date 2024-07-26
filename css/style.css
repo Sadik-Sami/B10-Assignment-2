@@ -4,6 +4,11 @@
 @import url('section/header.css');
 @import url('section/hero.css');
 @import url('section/habits.css');
+@import url('section/target.css');
+@import url('section/taining.css');
+@import url('section/bmi.css');
+@import url('section/team.css');
+@import url('section/footer.css');
 
 :root {
   --miama : 'Miama', sans-serif;
@@ -40,7 +45,7 @@ a {
 @media screen and (max-width: 576px) {
   /* START: header media querie */
   .header__nav {
-    padding: 48px 10px 32px 10px;
+    padding: 20px 20px;
   }
   .header__menu {
     display: none;
@@ -49,5 +54,65 @@ a {
     display: flex;
   }
   /* Start hero media queries */
-  
+  .hero {
+    display: block;
+    padding: 0 20px;
+  }
+  .hero__description {
+    width: 100%;
+  }
+  .hero__description-title  {
+    font-size: 2rem;
+    line-height: 120%;
+  }
+  .hero__description-title.curly {
+    font-size: 2rem;
+    line-height: 120%;
+  }
+  .hero__description-subtitle  {
+    font-size: 1rem;
+  }
+  .hero__description-buttons   {
+    justify-content: flex-start;
+  }
+  .hero__description-button {
+    padding: 16px 32px;
+  }
+  .desktop {
+    display: none;
+  }
+  .hero__image {
+    width: 100%;
+  }
+  .hero__image-text1 {
+    width: fit-content;
+    right: 0;
+    top: 10%;
+  }
+  .hero__image-text1-title {
+    font-size: 30px;
+  }
+  .hero__image-text1-subtitle {
+    font-size: 10px;
+  }
+  .hero__image-text2 {
+    width: fit-content;
+    height: 70px;
+    top: 45%;
+    left: 0;
+  }
+  .hero__image-text2circle  {
+    width: 30px;
+    height: 30px;
+  }
+  .hero__image-text2-title {
+    font-size: 18px;
+  }
+  .hero__image-text2-subtitle {
+    font-size: 12px;
+  }
+  /* start habits media queries */
+  .habits {
+    display: none;
+  }
 }

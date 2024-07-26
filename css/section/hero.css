@@ -14,7 +14,7 @@
 .hero__description-title {
   color: #fff;
   font-family: var(--inter);
-  font-size: 80px;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 900;
 }
@@ -35,15 +35,15 @@
 .hero__description-buttons {
   display: flex;
   gap: 14px;
+  justify-content: space-between;
 }
 .hero__description-button {
-  width: fit-content;
   padding: 16px 40px;
   background: transparent;
   border-radius: 42px;
   border: 1px solid #fff;
   font-family: var(--inter);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
