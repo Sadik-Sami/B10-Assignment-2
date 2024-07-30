@@ -5,7 +5,7 @@
 @import url('section/hero.css');
 @import url('section/habits.css');
 @import url('section/target.css');
-@import url('section/taining.css');
+@import url('section/join.css');
 @import url('section/bmi.css');
 @import url('section/team.css');
 @import url('section/footer.css');
@@ -38,7 +38,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 @media screen and (max-width: 576px) {
   /* START: header media querie */
   .header__nav {
@@ -138,5 +137,16 @@ a {
   .target__image  {
     width: 100%;
     height: 170px;
+  }
+  /* start join media queries */
+  .join__us-container {
+    padding: 0 20px;
+  }
+  .join__us-image {
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, black 0%, transparent 70%), linear-gradient(to top, black 0%, transparent 100%), url(../../assets/ctabanner.jpg);
+    background-position: center;
+    background-size: cover;
   }
 }

@@ -1,0 +1,39 @@
+.join__us-container {
+  background: var(--black-primary);
+  padding: 100px 0;
+}
+.join__us {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.join__us-image {
+  height: 372px;
+  width: 100%;
+  background: linear-gradient(to right, black, transparent),
+    url('../../assets/ctabanner.jpg');
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  border: 5px solid var(--black-secondary);
+  padding: 32px;
+}
+.join__us-title {
+  font-family: var(--inter);
+  font-size: 48px;
+  font-weight: 900;;
+  color: var(--text-primary);
+}
+.join__us-subtitle {
+  font-family: var(--inter);
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+.join__us-button {
+  width: fit-content;
+  margin-top: 24px;
+}
