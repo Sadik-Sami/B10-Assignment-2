@@ -174,12 +174,109 @@
         </div>
       </section>
 
+      <section class="bmi__container">
+        <div class="bmi__container-header">
+          <h1 class="bmi__container-header-title">BMI Calculator</h1>
+          <p class="bmi__container-header-subtitle">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="bmi__container-calculate-container">
+          <div class="bmi__container-calculate">
+            <div class="bmi-table">
+              <h2>BMI Calculator Chart</h2>
+              <table>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
+            </div>
+            <div class="bmi-calculator">
+              <div class="bmi-calculator__header">
+                <h2>Calculate Your BMI</h2>
+                <p>
+                  We believe fitness should be accessible to everyone,
+                  everywhere, regardless of income or access to a gym.
+                </p>
+              </div>
+              <div class="bmi-calculator__caltulate">
+                <input
+                  type="number"
+                  name="height"
+                  id="height"
+                  class="bmi-input"
+                  placeholder="Height/cm" />
+                <input
+                  type="number"
+                  name="weight"
+                  id="weight"
+                  class="bmi-input"
+                  placeholder="Weight/kg" />
+                <input
+                  class="bmi-input"
+                  type="number"
+                  name="age"
+                  id="age"
+                  placeholder="Age" />
+                <select
+                  class="bmi-input"
+                  name="sex"
+                  id="sex"
+                  aria-placeholder="sex">
+                  <option value="" disabled selected hidden>Sex</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="others">Others</option>
+                </select>
+                <select
+                  class="bmi-input"
+                  name="sex"
+                  id="activity"
+                  aria-placeholder="sex">
+                  <option value="" disabled selected hidden>
+                    Select An Activiy Factor
+                  </option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="hero__description-button active calculate-btn">Calculate</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="join__us-container">
         <div class="join__us">
-          <div  class="join__us-image">
+          <div class="join__us-image">
             <h1 class="join__us-title">Track Your Progess</h1>
-            <p class="join__us-subtitle">We provide fitness trackers with our packages <br>so that you can join and start tracking yout progress</p>
-            <button class="hero__description-button active mobile join__us-button">Contact Us</button>
+            <p class="join__us-subtitle">
+              We provide fitness trackers with our packages <br />so that you
+              can join and start tracking yout progress
+            </p>
+            <button
+              class="hero__description-button active mobile join__us-button">
+              Contact Us
+            </button>
           </div>
         </div>
       </section>
