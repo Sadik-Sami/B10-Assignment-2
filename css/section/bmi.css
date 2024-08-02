@@ -49,6 +49,7 @@
   font-weight: 900;
   line-height: 120%;
   padding-bottom: 52px;
+  text-align: center;
 }
 table {
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -108,9 +109,6 @@ td {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
-#activity {
-  grid-column: 1 / span 2;
-}
 .bmi-input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
@@ -125,8 +123,11 @@ td {
   font-weight: 400;
   line-height: 22px;
 }
+#activity {
+  grid-column: 1 / span 2;
+  width: 100%;
+}
 select option {
-  margin: 40px;
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
