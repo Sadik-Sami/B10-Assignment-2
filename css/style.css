@@ -30,6 +30,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+    list-style: none;
+}
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
@@ -182,5 +185,14 @@ input[type='number'] {
   }
   .team__container-gallery {
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* start footer media queries */
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+  .footer__rights svg {
+    padding: 0 20px;
   }
 }
